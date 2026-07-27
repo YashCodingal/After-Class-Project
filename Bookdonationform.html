@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Book Donation Form</title>
+    </head>
+    <body>
+        <h1>Book Donation Form📚📖</h1>
+        <p>Please fill in the form below to donate your books to the library!Thanks!</p>
+        <hr>
+
+        <form>
+
+
+            <fieldset>
+                <legend>
+                    <h2>Donor Information/details</h2>
+                </legend>
+
+                <label>Your name:</label>
+                <br>
+                <input type="text"id="name"placeholder="Enter your entire name"><br><br>
+                <label>Donor ID</label><br>
+                <input type="password"id="donor id"placeholder="Enter your donor ID"><br><br>
+                <label>Donation date:</label><br>
+                <input type="date"id="donation date"><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Book Information</legend>
+
+                <label>Choose the book category:</label><br>
+                <select id="book category">
+                    <option value="">Select one of the categories</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="science">Science</option>
+                    <option value="history">History</option>
+                    <option value="Education">Education</option>
+                </select><br><br>
+                <label>Condition of the book:</label><br>
+                <input type="radio"name="condition"value="new">Like New<br>
+                <input type="radio"name="condition"value="good">Good<br>
+                <input type="radio"name="condition"value="used">used<br>
+                <label>Book title or additional notes</label><br>
+                <textarea id="notes"rows="3"cols="35"placeholder="e.g. The book,title,author name,or any notes you want to write."></textarea><br>
+            </fieldset>
+
+            <br>
+
+
+            <fieldset>
+                <legend>Do you prefer Red drop-off day</legend>
+                <input type="checkbox" value="mon">Monday<br>
+                <input type="checkbox" value="wed">Wednesday<br>
+                <input type="checkbox" value="fri">Friday<br>
+            </fieldset>
+
+            <br>
+            <input type="submit"value="Donate my book">
+        </form>
+    </body>
+</html>
