@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(243, 243, 214);
+    padding: 65px 30px 30px 30px;
+    min-height: 1800px;
+}
+h1,h2{
+    background-color: rgb(229, 127, 2);
+}
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(229, 127, 2);
+    color: white;
+    padding: 14px 20px;
+}
+.list-item{
+    background-color: aliceblue;
+    border: 2px solid rgb(229, 127, 2);
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+.Special_Note{
+    position: relative;
+    left: 30px;
+    background-color: rgb(250, 216, 23);
+    padding: 10px 20px;
+}
+.pet-card{
+    position: relative;
+    background-color: aliceblue;
+    border: 2px solid rgb(229, 127, 2);
+    padding: 15px 25px;
+}
+.badge{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: rgb(39, 165, 39);
+    color: aliceblue;
+    padding: 4px 8px;
+}
+.selection-label{
+    position: sticky;
+    top: 55px;
+    background-color: rgb(229, 127, 2);
+    color: aliceblue;
+    padding: 10px 20px;
+    margin: 15px 0px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="top-bar">My Pet Page - Buddy the Labrador</div>
+        <h1>Meet Buddy the Dog</h1>
+        <h2>Static</h2>
+        <div class="list-item">Breed: Labrador Retriever</div>
+        <div class="list-item">Age: 2 years</div>
+
+        <h2>Relative</h2>
+        <p>This note shifts right from the normal spot</p>
+        <div class="Special_Note">Pet of the month</div>
+
+        <h2>Absolute</h2>
+        <p>The badge is printed on the right corner of the card.</p>
+        <div class="pet-card">
+        <p>Buddy,Labrador,2 years</p>
+        <div class="badge">Adopted</div>    
+        </div>
+
+        <h2>Sticky</h2>
+        <p>Scroll down!the label locks at the top.</p>
+        <div class="selection-label">More pets available</div>
+        <div class="list-item">Luna, Poodle, 1 year</div>
+        <div class="list-item">Max, German shepherd, 3 years</div>
+        <div class="list-item">Coco, Husky, 2 years</div>
+        <div class="list-item">Milo, Tabby cat, 3 years</div>
+    </body>
+</html>
